@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dien thoai</title>
+    <link rel="stylesheet" href="./acssets/css/base.css">
+    <link rel="stylesheet" href="./acssets/css/grid.css">
+    <link rel="stylesheet" href="./acssets/css/main.css">
+    <link rel="stylesheet" href="./acssets/css/cart.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap&subset=vietnamese">
+    <link rel="stylesheet" href="./acssets/font/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./acssets/font/themify-icons/themify-icons.css">
+</head>
+<body>
+    <div id="app">
+        <!-- header -->
+        <header class="header">
+            <div class="grid wide">
+                <div class="header__navbar">
+                    <a href="index.html" class="header__logo">
+                        <img class="header__logo-img" alt="Tập tin:The gioi di dong logo.svg" src="//upload.wikimedia.org/wikipedia/vi/thumb/8/8d/The_gioi_di_dong_logo.svg/512px-The_gioi_di_dong_logo.svg.png?20200322054322" decoding="async" width="512" height="87" srcset="//upload.wikimedia.org/wikipedia/vi/thumb/8/8d/The_gioi_di_dong_logo.svg/768px-The_gioi_di_dong_logo.svg.png?20200322054322 1.5x, //upload.wikimedia.org/wikipedia/vi/thumb/8/8d/The_gioi_di_dong_logo.svg/1024px-The_gioi_di_dong_logo.svg.png?20200322054322 2x" data-file-width="512" data-file-height="87">
+                    </a>
+                    <div class="header__search">
+                        <input class="header__search-input" type="text" placeholder="Bạn tìm gì...">
+                        <div><i class="header__search-icon fa-solid fa-magnifying-glass"></i></div>
+                        <div class="header__search-history">
+                            <header class="header__search-history-heading">
+                                <p>Lịch sử tìm kiếm</p>
+                                <i class="header__search-history-icon-close fa-solid fa-xmark"></i>
+                            </header>
+                            <ul class="header__search-history-list">
+                                <li class="header__search-history-item">
+                                    <a class="header__search-history-item-link" href="">samsung</a>
+                                </li>
+                                <li class="header__search-history-item">
+                                    <a class="header__search-history-item-link" href="">iphone</a>
+                                </li>
+                                <li class="header__search-history-item">
+                                    <a class="header__search-history-item-link" href="">iphone promax</a>
+                                </li>
+                                <li class="header__search-history-item">
+                                    <a class="header__search-history-item-link" href="">samsung s10</a>
+                                </li>
+                                <li class="header__search-history-item">
+                                    <a class="header__search-history-item-link" href="">vsmart</a>
+                                </li>
+                                <li class="header__search-history-item">
+                                    <a class="header__search-history-item-link" href="">oppo</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a href="purchasehistory.html" class="header__purchase-history">Lịch sử đơn hàng</a>
+                    <a href="" class="header__cart">
+                        <i class="header__cart-icon fa-solid fa-cart-shopping"></i>
+                        <p>Giỏ hàng</p>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <div class="container__cart">
+            <!-- <div class="container__cart--no-cart active">
+                <img src="./acssets/img/no-cart.png" alt="" class="container__cart--no-cart-img">
+                <div class="container__cart--no-cart-description">Không có sản phẩm nào trong giỏ hàng</div>
+                 <a href="index.html" class="container__cart--no-cart-back-home">
+                                Về trang chủ
+                </a>
+                <div class="container__cart--no-cart-sp">Khi cần trợ giúp vui lòng gọi <a href="tel: 1800.1060">1800.1060</a> hoặc <a href="tel: 028.3622.1060">028.3622.1060</a> (7h30 - 22h)</div>
+            </div> -->
+            <div class="container__cart-have-products">
+                <div class="top-content">
+                    <a href="./index.html" class="buy-more"><i class="fa-solid fa-angle-left"></i>Mua thêm sản phẩm khác</a>
+                    <span>Giỏ hàng của anh</span>
+                </div>
+                <div class="body-cart">
+                    <ul class="cart-lists">
+                        <li class="product-item">
+                            <div class="product-img">
+                                <a href="#"><img src="./acssets/img/samsung-galaxy-z-flip4.jpg" alt=""></a>
+                                <div class="close"><i class="icon-close fa-solid fa-xmark"></i>Xoá</div>
+                            </div>
+                            <div class="product-info">
+                                <section >
+                                    <div class="product-name">
+                                        <a href="#" class="product-item__name">Điện thoại Samsung Galaxy Z Flip4 128GB</a>
+                                    </div>
+                                    <p class="product-sale">
+                                        12 khuyến mãi
+                                        <i class="icon-down fa-solid fa-sort-down"></i>
+                                    </p>
+                                    <p class="choose-color">Màu: Tím<i class="icon-down fa-solid fa-sort-down"></i></p>
+                                </section>
+                                <section >
+                                    <div class="product-price">
+                                        <p class="price-present">20.990.000₫</p>
+                                        <p class="price-old">23.990.000₫</p>
+                                    </div>
+                                    <div class="choose-number">
+                                        <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                                        <p class="number">1</p>
+                                        <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                                    </div>
+                                </section>
+                            </div>
+                        </li>
+                        <li class="product-item">
+                            <div class="product-img">
+                                <a href="#"><img src="./acssets/img/iphone-xi-xanhla-200x200.jpg" alt=""></a>
+                                <div class="close"><i class="icon-close fa-solid fa-xmark"></i>Xoá</div>
+                            </div>
+                            <div class="product-info">
+                                <section >
+                                    <div class="product-name">
+                                        <a href="#" class="product-item__name">Điện thoại iPhone 11 64GB</a>
+                                    </div>
+                                    <p class="product-sale">
+                                        8 khuyến mãi
+                                        <i class="icon-down fa-solid fa-sort-down"></i>
+                                    </p>
+                                    <p class="choose-color">Màu: Tím<i class="icon-down fa-solid fa-sort-down"></i></p>
+                                </section>
+                                <section >
+                                    <div class="product-price">
+                                        <p class="price-present">11.790.000₫</p>
+                                        <p class="price-old">14.990.000₫</p>
+                                    </div>
+                                    <div class="choose-number">
+                                        <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                                        <p class="number">1</p>
+                                        <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                                    </div>
+                                </section>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="user-info">
+                        <h4>Thông tin khách hàng</h4>
+                        <div class="sex">
+                            <input type="radio" id="male" name="sex" value="M">
+                            <label for="male">Anh</label>
+                            <input type="radio" id="female" name="sex" value="F">
+                            <label for="female">Chị</label>
+                        </div>
+                        <div class="fill-in-form">
+                            <input type="text" class="fill-name" placeholder="Họ và tên" required="required">
+                            <input type="tel" class="phone-number" placeholder="Số điện thoại" required="required">
+                        </div>
+                    </div>
+                    <div class="get-goods">
+                        <h4>chọn cách thức nhận hàng</h4>
+                        <div class="choose-get-goods">
+                            <input type="radio" id="current" name="sex" value="C">
+                            <label for="current">Giao tận nơi</label>
+                            <input type="radio" id="supermarket" name="sex" value="S">
+                            <label for="supermarket">Nhận tại siêu thị</label>
+                        </div>
+                    </div>
+                    <div class="other-requirements">
+                        <input type="text" required="required" placeholder="Yêu cầu khác (không bắt buộc)">
+                        <ul>
+                            <li><input type="checkbox" id="required-01"><label for="required-01">Gọi người khác nhận hàng(nếu có)</label></li>
+                            <li><input type="checkbox" id="required-02"><label for="required-02">Chuyển danh bạ, dữ liệu qua máy mới</label></li>
+                            <li><input type="checkbox" id="required-03"><label for="required-03"></label>Xuất hóa đơn công ty</li>
+                        </ul>
+                    </div>
+                    <div class="final-total">
+                        <div class="total-price">
+                            <strong>Tổng tiền:</strong>
+                            <strong>32.780.000₫</strong>
+                        </div>
+                        <button type="button" class="submit-order">
+                            ĐẶT HÀNG
+                        </button>
+                    </div>
+                </div>
+                <small class="foot-cart">
+                    Bằng cách đặt hàng, bạn đồng ý với Điều khoản sử dụng của Thegioididong
+                </small>
+            </div>
+        </div>
+    </div>
+    <script src="./acssets/js/search.js" defer type="module"></script>
+</body>
+</html>

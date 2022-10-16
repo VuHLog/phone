@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dien thoai</title>
+    <link rel="stylesheet" href="./acssets/css/base.css">
+    <link rel="stylesheet" href="./acssets/css/grid.css">
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+      />
+    <link rel="stylesheet" href="./acssets/css/main.css">
+    <link rel="stylesheet" href="./acssets/css/responsive-index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap&subset=vietnamese">
+    <link rel="stylesheet" href="./acssets/font/fontawesome/css/all.min.css">
+</head>
+<body>
+    <div id="app">
+        <!-- header -->
+        <header class="header">
+            <div class="grid wide">
+                <div class="header__navbar">
+                    <a href="#" class="header__logo">
+                        <img class="header__logo-img" alt="Tập tin:The gioi di dong logo.svg" src="./acssets/img/logo-the-gioi-di-dong-vector-inkythuatso-01.jpg">
+                    </a>
+                    <div class="header__search">
+                        <input class="header__search-input" type="search" placeholder="Bạn tìm gì...">
+                        <div class="header__search-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                        <div class="header__search-history">
+                            <header class="header__search-history-heading">
+                                <p>Lịch sử tìm kiếm</p>
+                                <div class="header__search-history-icon-close"><i class="fa-solid fa-xmark"></i></div>
+                            </header>
+                            <ul class="header__search-history-list">
+                                <li class="header__search-history-item">
+                                    <a class="header__search-history-item-link" href="">samsung</a>
+                                </li>
+                                <li class="header__search-history-item">
+                                    <a class="header__search-history-item-link" href="">iphone</a>
+                                </li>
+                                <li class="header__search-history-item">
+                                    <a class="header__search-history-item-link" href="">iphone promax</a>
+                                </li>
+                                <li class="header__search-history-item">
+                                    <a class="header__search-history-item-link" href="">samsung s10</a>
+                                </li>
+                                <li class="header__search-history-item">
+                                    <a class="header__search-history-item-link" href="">vsmart</a>
+                                </li>
+                                <li class="header__search-history-item">
+                                    <a class="header__search-history-item-link" href="">oppo</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <a href="purchasehistory.html" class="header__purchase-history">Lịch sử đơn hàng</a>
+                    <a href="cart.html" class="header__cart">
+                        <i class="header__cart-icon fa-solid fa-cart-shopping"></i>
+                        <p>Giỏ hàng</p>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <!-- container -->
+        <div class="container">
+            <div class="grid wide">
+                <div class="container__banner">
+                    <div class="image-slider">
+                        <div class="image-item">
+                            <div class="image">
+                                <img src="./acssets/img/iphone14pro.png" alt="" >
+                            </div>
+                        </div>
+                        <div class="image-item">
+                            <div class="image">
+                                <img src="./acssets/img/galaxyzfold4zflip.png" alt="">
+                            </div>
+                        </div>
+                        <div class="image-item">
+                            <div class="image">
+                                <img src="./acssets/img/vivoyseries.png" alt="">
+                            </div>
+                        </div>
+                        <div class="image-item">
+                            <div class="image">
+                                <img src="./acssets/img/xiaomit12 series.png" alt="">
+                            </div>
+                        </div>
+                        <div class="image-item">
+                            <div class="image">
+                                <img src="./acssets/img/opporeno8series.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner-right">
+                        <img src="./acssets/img/banner1.png" alt="">
+                        <img src="./acssets/img/banner2.png" alt="">
+                    </div>
+                </div>
+                <div class="container__filter">
+                    <div class="container__filter-item">
+                        <span>Hãng</span>
+                        <div class="filter-show row" >
+                            <div class="filter-show__card col l-6 m-6 c-6">
+                                <a href="" class="filter-show__link">
+                                    <img src="./acssets/img/logo-iphone.png" alt="" class="filter-show__img">
+                                </a>
+                            </div>
+                            <div class="filter-show__card col l-6 m-6 c-6">
+                                <a href="" class="filter-show__link">
+                                    <img src="./acssets/img/logo-samsung.png" alt="" class="filter-show__img">
+                                </a>
+                            </div>
+                            <div class="filter-show__card col l-6 m-6 c-6">
+                                <a href="" class="filter-show__link">
+                                    <img src="./acssets/img/logo-oppo.jpg" alt="" class="filter-show__img">
+                                </a>
+                            </div>
+                            <div class="filter-show__card col l-6 m-6 c-6">
+                                <a href="" class="filter-show__link">
+                                    <img src="./acssets/img/logo-xiaomi.png" alt="" class="filter-show__img">
+                                </a>
+                            </div>
+                            <div class="filter-show__card col l-6 m-6 c-6">
+                                <a href="" class="filter-show__link">
+                                    <img src="./acssets/img/logo-xiaomi.png" alt="" class="filter-show__img">
+                                </a>
+                            </div>
+                            <div class="filter-show__card col l-6 m-6 c-6">
+                                <a href="" class="filter-show__link">
+                                    <img src="./acssets/img/logo-xiaomi.png" alt="" class="filter-show__img">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container__filter-item">
+                        <span>Giá</span>
+                        
+                    </div>
+                    <div class="container__filter-item">
+                        <span>Nhu cầu</span>
+                        <div class="filter-show row" >
+                            <div class="filter-show__card col l-6 m-12 c-6 ">
+                                <a href="" class="filter-show__link">
+                                    Chơi game / Cấu hình cao
+                                </a>
+                            </div>
+                            <div class="filter-show__card col l-6 m-12 c-6">
+                                <a href="" class="filter-show__link">
+                                    Chụp ảnh, quay phim
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container__filter-item">
+                        <span>RAM</span>
+                        <div class="filter-show row" >
+                            <div class="filter-show__card col l-4 m-4 c-6 ">
+                                <a href="" class="filter-show__link">
+                                    2 GB
+                                </a>
+                            </div>
+                            <div class="filter-show__card col l-4 m-4 c-6">
+                                <a href="" class="filter-show__link">
+                                    3 GB
+                                </a>
+                            </div>
+                            <div class="filter-show__card col l-4 m-4 c-6">
+                                <a href="" class="filter-show__link">
+                                    4 GB
+                                </a>
+                            </div>
+                            <div class="filter-show__card col l-4 m-4 c-6">
+                                <a href="" class="filter-show__link">
+                                    6 GB
+                                </a>
+                            </div>
+                            <div class="filter-show__card col l-4 m-4 c-6">
+                                <a href="" class="filter-show__link">
+                                    8 GB
+                                </a>
+                            </div>
+                            <div class="filter-show__card col l-4 m-4 c-6">
+                                <a href="" class="filter-show__link">
+                                    12 GB
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container__filter-item">
+                        <span>Bộ nhớ trong</span>
+                        <div class="filter-show row" >
+                            <div class="filter-show__card col l-4 m-4 c-6 ">
+                                <a href="" class="filter-show__link">
+                                    32 GB
+                                </a>
+                            </div>
+                            <div class="filter-show__card col l-4 m-4 c-6">
+                                <a href="" class="filter-show__link">
+                                    64 GB
+                                </a>
+                            </div>
+                            <div class="filter-show__card col l-4 m-4 c-6">
+                                <a href="" class="filter-show__link">
+                                    128 GB
+                                </a>
+                            </div>
+                            <div class="filter-show__card col l-4 m-4 c-6">
+                                <a href="" class="filter-show__link">
+                                    256 GB
+                                </a>
+                            </div>
+                            <div class="filter-show__card col l-4 m-4 c-6">
+                                <a href="" class="filter-show__link">
+                                    512 GB
+                                </a>
+                            </div>
+                            <div class="filter-show__card col l-4 m-4 c-6">
+                                <a href="" class="filter-show__link">1 TB</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container__filter-item">
+                        <span>Pin & Sạc</span>
+                        <div class="filter-show row" >
+                            <div class="filter-show__card col l-6 m-6 c-6 ">
+                                <a href="" class="filter-show__link">
+                                    Sạc khủng trên 5000mAh
+                                </a>
+                            </div>
+                            <div class="filter-show__card col l-6 m-6 c-6">
+                                <a href="" class="filter-show__link">
+                                    Sạc nhanh (từ 18W)
+                                </a>
+                            </div>
+                            <div class="filter-show__card col l-6 m-6 c-6">
+                                <a href="" class="filter-show__link">
+                                    Sạc siêu nhanh (từ 33W)
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container__product">
+                    <div class="row">
+                        <div class="container__product-item col l-2-4 m-4 c-6">
+                            <a href="./samsung-galaxy-z-flip4.html" class="container__product-item-link">
+                                <div class="product-img"><img src="./acssets/img/samsung-galaxy-z-flip4.jpg" alt=""></div>
+                                <h3 class="product-name">Samsung Galaxy Z Flip4 5G</h3>
+                                <div class="product-description">
+                                    <span>Chính 6.7" & Phụ 1.9"</span>
+                                    <span>Full HD+</span>
+                                </div>
+                                <div class="product-rom-version">
+                                    <ul>
+                                        <li>128GB</li>
+                                        <li>256GB</li>
+                                        <li>512GB</li>
+                                    </ul>
+                                </div>
+                                <div class="product-sale">
+                                    <p class="price-old">23.990.000₫</p>
+                                    <span class="percent">-8%</span>
+                                </div>
+                                <strong class="price">21.990.000₫</strong>
+                            </a>
+                        </div>
+                        <div class="container__product-item col l-2-4 m-4 c-6">
+                            <a href="#" class="container__product-item-link">
+                                <div class="product-img"><img src="./acssets/img/samsung-galaxy-z-flip4.jpg" alt=""></div>
+                                <h3 class="product-name">Samsung Galaxy Z Flip4 5G</h3>
+                                <div class="product-description">
+                                    <span>Chính 6.7" & Phụ 1.9"</span>
+                                    <span>Full HD+</span>
+                                </div>
+                                <div class="product-rom-version">
+                                    <ul>
+                                        <li>128GB</li>
+                                        <li>256GB</li>
+                                        <li>512GB</li>
+                                    </ul>
+                                </div>
+                                <div class="product-sale">
+                                    <p class="price-old">23.990.000₫</p>
+                                    <span class="percent">-8%</span>
+                                </div>
+                                <strong class="price">21.990.000₫</strong>
+                            </a>
+                        </div>
+                        <div class="container__product-item col l-2-4 m-4 c-6">
+                            <a href="#" class="container__product-item-link">
+                                <div class="product-img"><img src="./acssets/img/samsung-galaxy-z-flip4.jpg" alt=""></div>
+                                <h3 class="product-name">Samsung Galaxy Z Flip4 5G</h3>
+                                <div class="product-description">
+                                    <span>Chính 6.7" & Phụ 1.9"</span>
+                                    <span>Full HD+</span>
+                                </div>
+                                <div class="product-rom-version">
+                                    <ul>
+                                        <li>128GB</li>
+                                        <li>256GB</li>
+                                        <li>512GB</li>
+                                    </ul>
+                                </div>
+                                <div class="product-sale">
+                                    <p class="price-old">23.990.000₫</p>
+                                    <span class="percent">-8%</span>
+                                </div>
+                                <strong class="price">21.990.000₫</strong>
+                            </a>
+                        </div>
+                        <div class="container__product-item col l-2-4 m-4 c-6">
+                            <a href="#" class="container__product-item-link">
+                                <div class="product-img"><img src="./acssets/img/samsung-galaxy-z-flip4.jpg" alt=""></div>
+                                <h3 class="product-name">Samsung Galaxy Z Flip4 5G</h3>
+                                <div class="product-description">
+                                    <span>Chính 6.7" & Phụ 1.9"</span>
+                                    <span>Full HD+</span>
+                                </div>
+                                <div class="product-rom-version">
+                                    <ul>
+                                        <li>128GB</li>
+                                        <li>256GB</li>
+                                        <li>512GB</li>
+                                    </ul>
+                                </div>
+                                <div class="product-sale">
+                                    <p class="price-old">23.990.000₫</p>
+                                    <span class="percent">-8%</span>
+                                </div>
+                                <strong class="price">21.990.000₫</strong>
+                            </a>
+                        </div>
+                        <div class="container__product-item col l-2-4 m-4 c-6">
+                            <a href="#" class="container__product-item-link">
+                                <div class="product-img"><img src="./acssets/img/samsung-galaxy-z-flip4.jpg" alt=""></div>
+                                <h3 class="product-name">Samsung Galaxy Z Flip4 5G</h3>
+                                <div class="product-description">
+                                    <span>Chính 6.7" & Phụ 1.9"</span>
+                                    <span>Full HD+</span>
+                                </div>
+                                <div class="product-rom-version">
+                                    <ul>
+                                        <li>128GB</li>
+                                        <li>256GB</li>
+                                        <li>512GB</li>
+                                    </ul>
+                                </div>
+                                <div class="product-sale">
+                                    <p class="price-old">23.990.000₫</p>
+                                    <span class="percent">-8%</span>
+                                </div>
+                                <strong class="price">21.990.000₫</strong>
+                            </a>
+                        </div>
+                        <div class="container__product-item col l-2-4 m-4 c-6">
+                            <a href="#" class="container__product-item-link">
+                                <div class="product-img"><img src="./acssets/img/samsung-galaxy-z-flip4.jpg" alt=""></div>
+                                <h3 class="product-name">Samsung Galaxy Z Flip4 5G</h3>
+                                <div class="product-description">
+                                    <span>Chính 6.7" & Phụ 1.9"</span>
+                                    <span>Full HD+</span>
+                                </div>
+                                <div class="product-rom-version">
+                                    <ul>
+                                        <li>128GB</li>
+                                        <li>256GB</li>
+                                        <li>512GB</li>
+                                    </ul>
+                                </div>
+                                <div class="product-sale">
+                                    <p class="price-old">23.990.000₫</p>
+                                    <span class="percent">-8%</span>
+                                </div>
+                                <strong class="price">21.990.000₫</strong>
+                            </a>
+                        </div>
+                        <div class="container__product-item col l-2-4 m-4 c-6">
+                            <a href="#" class="container__product-item-link">
+                                <div class="product-img"><img src="./acssets/img/samsung-galaxy-z-flip4.jpg" alt=""></div>
+                                <h3 class="product-name">Samsung Galaxy Z Flip4 5G</h3>
+                                <div class="product-description">
+                                    <span>Chính 6.7" & Phụ 1.9"</span>
+                                    <span>Full HD+</span>
+                                </div>
+                                <div class="product-rom-version">
+                                    <ul>
+                                        <li>128GB</li>
+                                        <li>256GB</li>
+                                        <li>512GB</li>
+                                    </ul>
+                                </div>
+                                <div class="product-sale">
+                                    <p class="price-old">23.990.000₫</p>
+                                    <span class="percent">-8%</span>
+                                </div>
+                                <strong class="price">21.990.000₫</strong>
+                            </a>
+                        </div>
+                        <div class="container__product-item col l-2-4 m-4 c-6">
+                            <a href="#" class="container__product-item-link">
+                                <div class="product-img"><img src="./acssets/img/samsung-galaxy-z-flip4.jpg" alt=""></div>
+                                <h3 class="product-name">Samsung Galaxy Z Flip4 5G</h3>
+                                <div class="product-description">
+                                    <span>Chính 6.7" & Phụ 1.9"</span>
+                                    <span>Full HD+</span>
+                                </div>
+                                <div class="product-rom-version">
+                                    <ul>
+                                        <li>128GB</li>
+                                        <li>256GB</li>
+                                        <li>512GB</li>
+                                    </ul>
+                                </div>
+                                <div class="product-sale">
+                                    <p class="price-old">23.990.000₫</p>
+                                    <span class="percent">-8%</span>
+                                </div>
+                                <strong class="price">21.990.000₫</strong>
+                            </a>
+                        </div>
+                        <div class="container__product-item col l-2-4 m-4 c-6">
+                            <a href="#" class="container__product-item-link">
+                                <div class="product-img"><img src="./acssets/img/samsung-galaxy-z-flip4.jpg" alt=""></div>
+                                <h3 class="product-name">Samsung Galaxy Z Flip4 5G</h3>
+                                <div class="product-description">
+                                    <span>Chính 6.7" & Phụ 1.9"</span>
+                                    <span>Full HD+</span>
+                                </div>
+                                <div class="product-rom-version">
+                                    <ul>
+                                        <li>128GB</li>
+                                        <li>256GB</li>
+                                        <li>512GB</li>
+                                    </ul>
+                                </div>
+                                <div class="product-sale">
+                                    <p class="price-old">23.990.000₫</p>
+                                    <span class="percent">-8%</span>
+                                </div>
+                                <strong class="price">21.990.000₫</strong>
+                            </a>
+                        </div>
+                        <div class="container__product-item col l-2-4 m-4 c-6">
+                            <a href="#" class="container__product-item-link">
+                                <div class="product-img"><img src="./acssets/img/samsung-galaxy-z-flip4.jpg" alt=""></div>
+                                <h3 class="product-name">Samsung Galaxy Z Flip4 5G</h3>
+                                <div class="product-description">
+                                    <span>Chính 6.7" & Phụ 1.9"</span>
+                                    <span>Full HD+</span>
+                                </div>
+                                <div class="product-rom-version">
+                                    <ul>
+                                        <li>128GB</li>
+                                        <li>256GB</li>
+                                        <li>512GB</li>
+                                    </ul>
+                                </div>
+                                <div class="product-sale">
+                                    <p class="price-old">23.990.000₫</p>
+                                    <span class="percent">-8%</span>
+                                </div>
+                                <strong class="price">21.990.000₫</strong>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container__view-more">
+                <button>
+                    Xem thêm điện thoại
+                </button>
+                <div class="grid wide">
+                    <div class="container__product">
+                        <div class="row">
+                            <div class="container__product-item col l-2-4 m-4 c-6">
+                                <a href="#" class="container__product-item-link">
+                                    <div class="product-img"><img src="./acssets/img/samsung-galaxy-z-flip4.jpg" alt=""></div>
+                                    <h3 class="product-name">Samsung Galaxy Z Flip4 5G</h3>
+                                    <div class="product-description">
+                                        <span>Chính 6.7" & Phụ 1.9"</span>
+                                        <span>Full HD+</span>
+                                    </div>
+                                    <div class="product-rom-version">
+                                        <ul>
+                                            <li>128GB</li>
+                                            <li>256GB</li>
+                                            <li>512GB</li>
+                                        </ul>
+                                    </div>
+                                    <div class="product-sale">
+                                        <p class="price-old">23.990.000₫</p>
+                                        <span class="percent">-8%</span>
+                                    </div>
+                                    <strong class="price">21.990.000₫</strong>
+                                </a>
+                            </div>
+                            <div class="container__product-item col l-2-4 m-4 c-6">
+                                <a href="#" class="container__product-item-link">
+                                    <div class="product-img"><img src="./acssets/img/samsung-galaxy-z-flip4.jpg" alt=""></div>
+                                    <h3 class="product-name">Samsung Galaxy Z Flip4 5G</h3>
+                                    <div class="product-description">
+                                        <span>Chính 6.7" & Phụ 1.9"</span>
+                                        <span>Full HD+</span>
+                                    </div>
+                                    <div class="product-rom-version">
+                                        <ul>
+                                            <li>128GB</li>
+                                            <li>256GB</li>
+                                            <li>512GB</li>
+                                        </ul>
+                                    </div>
+                                    <div class="product-sale">
+                                        <p class="price-old">23.990.000₫</p>
+                                        <span class="percent">-8%</span>
+                                    </div>
+                                    <strong class="price">21.990.000₫</strong>
+                                </a>
+                            </div>
+                            <div class="container__product-item col l-2-4 m-4 c-6">
+                                <a href="#" class="container__product-item-link">
+                                    <div class="product-img"><img src="./acssets/img/samsung-galaxy-z-flip4.jpg" alt=""></div>
+                                    <h3 class="product-name">Samsung Galaxy Z Flip4 5G</h3>
+                                    <div class="product-description">
+                                        <span>Chính 6.7" & Phụ 1.9"</span>
+                                        <span>Full HD+</span>
+                                    </div>
+                                    <div class="product-rom-version">
+                                        <ul>
+                                            <li>128GB</li>
+                                            <li>256GB</li>
+                                            <li>512GB</li>
+                                        </ul>
+                                    </div>
+                                    <div class="product-sale">
+                                        <p class="price-old">23.990.000₫</p>
+                                        <span class="percent">-8%</span>
+                                    </div>
+                                    <strong class="price">21.990.000₫</strong>
+                                </a>
+                            </div>
+                            <div class="container__product-item col l-2-4 m-4 c-6">
+                                <a href="#" class="container__product-item-link">
+                                    <div class="product-img"><img src="./acssets/img/samsung-galaxy-z-flip4.jpg" alt=""></div>
+                                    <h3 class="product-name">Samsung Galaxy Z Flip4 5G</h3>
+                                    <div class="product-description">
+                                        <span>Chính 6.7" & Phụ 1.9"</span>
+                                        <span>Full HD+</span>
+                                    </div>
+                                    <div class="product-rom-version">
+                                        <ul>
+                                            <li>128GB</li>
+                                            <li>256GB</li>
+                                            <li>512GB</li>
+                                        </ul>
+                                    </div>
+                                    <div class="product-sale">
+                                        <p class="price-old">23.990.000₫</p>
+                                        <span class="percent">-8%</span>
+                                    </div>
+                                    <strong class="price">21.990.000₫</strong>
+                                </a>
+                            </div>
+                            <div class="container__product-item col l-2-4 m-4 c-6">
+                                <a href="#" class="container__product-item-link">
+                                    <div class="product-img"><img src="./acssets/img/samsung-galaxy-z-flip4.jpg" alt=""></div>
+                                    <h3 class="product-name">Samsung Galaxy Z Flip4 5G</h3>
+                                    <div class="product-description">
+                                        <span>Chính 6.7" & Phụ 1.9"</span>
+                                        <span>Full HD+</span>
+                                    </div>
+                                    <div class="product-rom-version">
+                                        <ul>
+                                            <li>128GB</li>
+                                            <li>256GB</li>
+                                            <li>512GB</li>
+                                        </ul>
+                                    </div>
+                                    <div class="product-sale">
+                                        <p class="price-old">23.990.000₫</p>
+                                        <span class="percent">-8%</span>
+                                    </div>
+                                    <strong class="price">21.990.000₫</strong>
+                                </a>
+                            </div>
+                            <div class="container__product-item col l-2-4 m-4 c-6">
+                                <a href="#" class="container__product-item-link">
+                                    <div class="product-img"><img src="./acssets/img/samsung-galaxy-z-flip4.jpg" alt=""></div>
+                                    <h3 class="product-name">Samsung Galaxy Z Flip4 5G</h3>
+                                    <div class="product-description">
+                                        <span>Chính 6.7" & Phụ 1.9"</span>
+                                        <span>Full HD+</span>
+                                    </div>
+                                    <div class="product-rom-version">
+                                        <ul>
+                                            <li>128GB</li>
+                                            <li>256GB</li>
+                                            <li>512GB</li>
+                                        </ul>
+                                    </div>
+                                    <div class="product-sale">
+                                        <p class="price-old">23.990.000₫</p>
+                                        <span class="percent">-8%</span>
+                                    </div>
+                                    <strong class="price">21.990.000₫</strong>
+                                </a>
+                            </div>
+                            <div class="container__product-item col l-2-4 m-4 c-6">
+                                <a href="#" class="container__product-item-link">
+                                    <div class="product-img"><img src="./acssets/img/samsung-galaxy-z-flip4.jpg" alt=""></div>
+                                    <h3 class="product-name">Samsung Galaxy Z Flip4 5G</h3>
+                                    <div class="product-description">
+                                        <span>Chính 6.7" & Phụ 1.9"</span>
+                                        <span>Full HD+</span>
+                                    </div>
+                                    <div class="product-rom-version">
+                                        <ul>
+                                            <li>128GB</li>
+                                            <li>256GB</li>
+                                            <li>512GB</li>
+                                        </ul>
+                                    </div>
+                                    <div class="product-sale">
+                                        <p class="price-old">23.990.000₫</p>
+                                        <span class="percent">-8%</span>
+                                    </div>
+                                    <strong class="price">21.990.000₫</strong>
+                                </a>
+                            </div>
+                            <div class="container__product-item col l-2-4 m-4 c-6">
+                                <a href="#" class="container__product-item-link">
+                                    <div class="product-img"><img src="./acssets/img/samsung-galaxy-z-flip4.jpg" alt=""></div>
+                                    <h3 class="product-name">Samsung Galaxy Z Flip4 5G</h3>
+                                    <div class="product-description">
+                                        <span>Chính 6.7" & Phụ 1.9"</span>
+                                        <span>Full HD+</span>
+                                    </div>
+                                    <div class="product-rom-version">
+                                        <ul>
+                                            <li>128GB</li>
+                                            <li>256GB</li>
+                                            <li>512GB</li>
+                                        </ul>
+                                    </div>
+                                    <div class="product-sale">
+                                        <p class="price-old">23.990.000₫</p>
+                                        <span class="percent">-8%</span>
+                                    </div>
+                                    <strong class="price">21.990.000₫</strong>
+                                </a>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <footer id="footer">
+            <div class="grid wide">
+                <div class="footer__section-1">
+                    <div class="row no-gutters">
+                        <div class="col l-3 m-12">
+                            <ul class="footer__list">
+                                <li class="footer__item">
+                                    <a href="#" class="footer__item-link">
+                                        Tích điểm quà tặng
+                                    </a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="purchasehistory.html" class="footer__item-link">
+                                        Lịch sử mua hàng
+                                    </a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#" class="footer__item-link">
+                                        Tìm hiểu về mua trả góp
+                                    </a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#" class="footer__item-link">
+                                        Chính sách bảo hành
+                                    </a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#" class="footer__item-link">
+                                        Xem thêm <i class="footer__item-icon-down fa-solid fa-caret-down"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col l-3 m-12">
+                            <ul class="footer__list">
+                                <li class="footer__item">
+                                    <a href="#" class="footer__item-link">
+                                        Giới thiệu công ty
+                                    </a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#" class="footer__item-link">
+                                        Tuyển dụng
+                                    </a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#" class="footer__item-link">
+                                        Gửi góp ý, khiếu nại
+                                    </a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="#" class="footer__item-link">
+                                        Tìm shop
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col l-3 m-12">
+                            <p class="footer__title"><strong>Tổng đài hỗ trợ</strong> (miễn phí gọi)</p>
+                            <p class="footer__support">
+                                Gọi mua: <a href="tel: 1800.1060"> 1800.1060</a> (7:30-22:00)
+                            </p>
+                            <p class="footer__support">
+                                Gọi mua: <a href="tel: 1800.1763"> 1800.1763</a> (7:30-22:00)
+                            </p>
+                            <p class="footer__support">
+                                Gọi mua: <a href="tel: 1800.1062"> 1800.1062</a> (8:00-21:30)
+                            </p>
+                            <p class="footer__support">
+                                Gọi mua: <a href="tel: 1800.1064"> 1800.1064</a> (8:00-21:00)
+                            </p>
+                        </div>
+                        <div class="col l-3 m-12">
+                            <div class="footer__social">
+                                <a class="footer__social-link" href="#">
+                                    <i class="footer__social-icon footer__social-icon--facebook fa-brands fa-facebook"></i>
+                                    1tr follows
+                                </a>
+                                <a class="footer__social-link" href="#">
+                                    <i class="footer__social-icon footer__social-icon--youtube fa-brands fa-youtube"></i>
+                                    2tr subscribers
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script
+    type="text/javascript"
+    src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+      ></script>
+      <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+      ></script>
+      <!-- <script src="./jquery-3.6.1.min.js" defer type="module"></script> -->
+    <script src="./" defer type="module"></script>
+    <script src="./acssets/js/search.js" defer type="module"></script>
+    <script src="./acssets/js/banner.js" defer type="module"></script>
+    <script src="./acssets/js/viewmore.js"></script>
+    <script src="./acssets/js/filter.js"></script>
+</body>
+</html>
